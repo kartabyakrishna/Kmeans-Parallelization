@@ -18,9 +18,9 @@
        2.3.1 [Code Implementation](#231-code-implementation)
        2.3.2 [Outputs](#232-outputs)
        2.3.3 [Observations](#233-observations)
-   2.4 [System Specification](#24-system-specification)
+3. [System Specification](#24-system-specification)
 
-3. [References](#3-references)
+4. [References](#3-references)
 
 ---
 
