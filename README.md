@@ -1,3 +1,34 @@
+# K-Means Parallelizaion using CUDA and OpenMP
+
+## Table of Contents
+
+1. [Introduction to the Topic](#introduction-to-the-topic)
+   - [History and Background](#history-and-background)
+   - [What is K-Means Algorithm](#what-is-k-means-algorithm)
+   - [How K-Means Works](#how-k-means-works)
+   - [Applications of K-Means](#applications-of-k-means)
+   - [Importance of Parallelization](#importance-of-parallelization)
+
+2. [Implementation](#implementation)
+   - [Sequential Code Complexity Analysis](#sequential-code-complexity-analysis)
+   - [OpenMP Implementation](#openmp-implementation)
+
+3. [Outputs and Observations](#outputs-and-observations)
+   - [Output for OpenMP Implementation](#output-for-openmp-implementation)
+   - [Observations for OpenMP Implementation](#observations-for-openmp-implementation)
+   - [Output for CUDA Implementation](#output-for-cuda-implementation)
+   - [Observations for CUDA Implementation](#observations-for-cuda-implementation)
+
+4. [Parallelization using CUDA](#parallelization-using-cuda)
+   - [Explanation of CUDA Parallelization](#explanation-of-cuda-parallelization)
+   - [Code Implementation](#code-implementation)
+   - [Methodology](#methodology)
+
+5. [System Specification](#system-specification)
+
+6. [References](#references)
+---
+
 # 1. Introduction to the Topic
 
 ## 1.1 History and Background
