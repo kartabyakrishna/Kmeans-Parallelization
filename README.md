@@ -2,25 +2,25 @@
 
 ## Index
 
-1. [Introduction to the Topic](#introduction-to-the-topic)
-   1.1 [History and Background](#history-and-background)
-   1.2 [What is K-Means Algorithm](#what-is-k-means-algorithm)
-   1.3 [How K-Means Works](#how-k-means-works)
-   1.4 [Applications of K-Means](#applications-of-k-means)
-   1.5 [Importance of Parallelization](#importance-of-parallelization)
+1. [Introduction to the Topic](#1-introduction-to-the-topic)
+   1.1 [History and Background](#11-history-and-background)
+   1.2 [What is K-Means Algorithm](#12-what-is-k-means-algorithm)
+   1.3 [How K-Means Works](#13-how-k-means-works)
+   1.4 [Applications of K-Means](#14-applications-of-k-means)
+   1.5 [Importance of Parallelization](#15-importance-of-parallelization)
 
-2. [Implementation](#implementation)
-   2.1 [Sequential Code Complexity Analysis](#sequential-code-complexity-analysis)
-   2.2 [OpenMP Implementation](#openmp-implementation)
-       2.2.1 [Output](#output)
-       2.2.2 [Observations](#observations)
-   2.3 [Parallelization using CUDA](#parallelization-using-cuda)
-       2.3.1 [Code Implementation](#code-implementation)
-       2.3.2 [Outputs](#outputs)
-       2.3.3 [Observations](#observations)
-   2.4 [System Specification](#system-specification)
+2. [Implementation](#2-implementation)
+   2.1 [Sequential Code Complexity Analysis](#21-sequential-code-complexity-analysis)
+   2.2 [OpenMP Implementation](#22-openmp-implementation)
+       2.2.1 [Output](#221-output)
+       2.2.2 [Observations](#222-observations)
+   2.3 [Parallelization using CUDA](#23-parallelization-using-cuda)
+       2.3.1 [Code Implementation](#231-code-implementation)
+       2.3.2 [Outputs](#232-outputs)
+       2.3.3 [Observations](#233-observations)
+   2.4 [System Specification](#24-system-specification)
 
-3. [References](#references)
+3. [References](#3-references)
 
 ---
 
