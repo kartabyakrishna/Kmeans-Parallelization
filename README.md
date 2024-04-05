@@ -1,32 +1,27 @@
 # K-Means Parallelizaion using CUDA and OpenMP
 
-## Table of Contents
+## Index
 
 1. [Introduction to the Topic](#introduction-to-the-topic)
-   - [History and Background](#history-and-background)
-   - [What is K-Means Algorithm](#what-is-k-means-algorithm)
-   - [How K-Means Works](#how-k-means-works)
-   - [Applications of K-Means](#applications-of-k-means)
-   - [Importance of Parallelization](#importance-of-parallelization)
+   1.1 [History and Background](#history-and-background)
+   1.2 [What is K-Means Algorithm](#what-is-k-means-algorithm)
+   1.3 [How K-Means Works](#how-k-means-works)
+   1.4 [Applications of K-Means](#applications-of-k-means)
+   1.5 [Importance of Parallelization](#importance-of-parallelization)
 
 2. [Implementation](#implementation)
-   - [Sequential Code Complexity Analysis](#sequential-code-complexity-analysis)
-   - [OpenMP Implementation](#openmp-implementation)
+   2.1 [Sequential Code Complexity Analysis](#sequential-code-complexity-analysis)
+   2.2 [OpenMP Implementation](#openmp-implementation)
+       2.2.1 [Output](#output)
+       2.2.2 [Observations](#observations)
+   2.3 [Parallelization using CUDA](#parallelization-using-cuda)
+       2.3.1 [Code Implementation](#code-implementation)
+       2.3.2 [Outputs](#outputs)
+       2.3.3 [Observations](#observations)
+   2.4 [System Specification](#system-specification)
 
-3. [Outputs and Observations](#outputs-and-observations)
-   - [Output for OpenMP Implementation](#output-for-openmp-implementation)
-   - [Observations for OpenMP Implementation](#observations-for-openmp-implementation)
-   - [Output for CUDA Implementation](#output-for-cuda-implementation)
-   - [Observations for CUDA Implementation](#observations-for-cuda-implementation)
+3. [References](#references)
 
-4. [Parallelization using CUDA](#parallelization-using-cuda)
-   - [Explanation of CUDA Parallelization](#explanation-of-cuda-parallelization)
-   - [Code Implementation](#code-implementation)
-   - [Methodology](#methodology)
-
-5. [System Specification](#system-specification)
-
-6. [References](#references)
 ---
 
 # 1. Introduction to the Topic
