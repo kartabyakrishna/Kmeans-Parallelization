@@ -1,0 +1,39 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore .exe files
+*.exe
+
+# Ignore .sln files
+*.sln
+
+# Ignore Visual Studio temporary files
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.lib
+*.sbr
+*.sdf
+*.idb
+*.ipch
+*.resx
+*.aps
+*.filters
+*.user
+*.opensdf
+*.vcxproj
+*.vcxproj.filters
