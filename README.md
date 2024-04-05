@@ -281,7 +281,6 @@ Random data points were generated in varying sizes, ranging from 100 to 1,000,00
 
 Performance was evaluated by measuring the time spent in different regions of interest (ROIs) within the code. For the sequential C++ code, ROIs included duration of one iteration and cluster assignment. In the parallel CUDA code, ROIs encompassed data transfer from host to device (ROICP0), duration of one iteration, cluster assignment, data transfer from device to host (ROICP1), and data transfer for new centroids (ROICP2) after centroid update. This structured approach facilitated comprehensive performance analysis and comparison between CPU and GPU implementations across different data sizes.
 
-```markdown
 ### 2.3.2 Outputs
 
 ```plaintext
@@ -388,7 +387,4 @@ Here's the device configuration of the Device used for the experiments:
 
 1. A Clustering Method Based on K-Means Algorithm: Li, Y., Wu, H. (2012), Physics Procedia, 25, 1104–1109. doi:10.1016/j.phpro.2012.03.206
 2. CUDA C++ Programming Guide: [NVIDIA CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-3. K-Means algorithm for CUDA
-
-: [cuKMean](https://github.com/alexminnaar/cuKMean)
-```
+3. K-Means algorithm for CUDA: [cuKMean](https://github.com/alexminnaar/cuKMean)
